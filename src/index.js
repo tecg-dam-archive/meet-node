@@ -41,6 +41,6 @@ stat( sFilePath, ( oError, oStats ) => {
 
         aLogLines.push( `${ chalk.green.bold( "sum:" ) } ${ crc32( sData ) }` );
 
-        console.log( aLogLines.join( " " ) ); // eslint-disable-line no-console
+        console.log( ...aLogLines ); // eslint-disable-line no-console
     } );
 } );
