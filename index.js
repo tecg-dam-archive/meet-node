@@ -11,7 +11,7 @@ var chalk = require( "chalk" ),//on lui dit qu'on va utiliser chalk
     path = require ( "path" ),
     fs = require ( "fs" ),
     humanSize = require( "human-size" ),
-    crc32 = require ( "easy-crc32" ).calculate;
+    sha1 = require ( "sha1" );
 
 var sFileName, sFilePath, fShowError;
 
@@ -54,7 +54,7 @@ fs.stat( sFilePath, function( oError, oStats ){
       fShowError( oReadError );
     }
 
-    aLogLines.push( chalk.green.bold( "sum:" ) + " " + crc32( sData ));
+    aLogLines.push( chalk.green.bold( "sum:" ) + " " + sha1( sData ));
 
     console.log( aLogLines.join( " " )); // on joint les éléments et on les separe par des espace
 
