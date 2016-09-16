@@ -1,0 +1,27 @@
+{
+  "name": "meet-node",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Base exercise to discover node.js, with a simple checksum cli tool.",
+  "author": {
+    "name": "leny",
+    "email": "info@flatland.be"
+  },
+  "homepage": "https://github.com/hepl-ria/meet-node",
+  "keywords": [
+    "cli",
+    "tools",
+    "checksum"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hepl-ria/meet-node.git"
+  },
+  "license": "WTFPL",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "easy-crc32": "0.0.2",
+    "human-size": "^1.1.0"
+  }
+}
