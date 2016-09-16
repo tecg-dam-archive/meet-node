@@ -43,9 +43,9 @@ fs.stat( sFilePath, function( oError, oStats ) {
     aLogLines.push( chalk.gray( "(" + humanSize( oStats.size ) + ")" ) );
 
     // checksum
-    fs.readFile( sFilePath, { "encoding": "utf-8" }, function( oError, sData ) {
-        if( oError ) {
-            fShowError( oError );
+    fs.readFile( sFilePath, "utf-8", function( oReadError, sData ) {
+        if( oReadError ) {
+            fShowError( oReadError );
         }
 
         aLogLines.push( chalk.green.bold( "sum:" ) + " " + crc32( sData ) );
