@@ -10,7 +10,7 @@ var chalk = require( "chalk" ),
     path = require( "path" ),
     fs = require( "fs" ),
     humanSize = require( "human-size" ),
-    crc32 = require( "easy-crc32" ).calculate;
+    crc32 = require( "crc" ).crc32;
 
 var sFileName, sFilePath;
 
