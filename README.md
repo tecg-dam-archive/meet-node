@@ -1,27 +1,6 @@
-# meet-node
+BLAblabla
+Pour l'histoire de l'anatomie, un théâtre anatomique est un édifice spécialisé où l'on procédait à des dissections anatomiques en public durant les Temps modernes et au début de l'Époque contemporaine en Occident.
 
-> Base exercise to discover node.js, with a simple checksum cli tool.
+Apparus en Europe du Sud avec le xvie siècle, soit environ deux cents ans après la résurgence historique de la dissection humaine à vocation scientifique, disparue depuis l'Antiquité grecque, les théâtres anatomiques demeurèrent des structures démontables jusqu'à ce que fussent érigées les premières installations permanentes à Salamanque au début des années 1550, dans d'autres villes espagnoles durant les années qui suivirent, puis surtout à Padoue en 1584.
 
-* * *
-
-**meet-node** is an educational project.
-
-**Note:** the school where the course is given, the [HEPL](http://www.provincedeliege.be/hauteecole) from Liège, Belgium, is a french-speaking school. From this point, the instructions will be in french. Sorry.
-
-* * *
-
-Ces fichiers servent de base d'exercice pour le cours de découverte de `node.js`.
-
-## Consignes
-
-Nous avons déjà, très vaguement, utilisé node.js en deuxième année, en basant notre workflow sur le _task runner_ [GruntJS](http://gruntjs.com/), qui repose sur node.js. À l'époque, nous avons _utilisé_ node.js sans vraiment le comprendre. Nous allons remédier à ça tout au long du semestre que dure le cours de RIA, en commençant par ce premier exercice, qui va avoir comme objectif de réaliser un petit outil en ligne de commande, outil qui va analyser le contenu d'un fichier pour en retourner la [somme de contrôle](https://fr.wikipedia.org/wiki/Somme_de_contr%C3%B4le) (checksum CRC32).
-
-### Déroulement
-
-Notre cours se déroulera comme suit :
-
-1. Présentation et historique rapide de node.js & npm
-1. Installation de node.js & npm
-1. Initialisation du projet et hello world
-1. Récupération des paramètres d'exécution, utilisation de modules externes
-1. Installation d'une dépendance depuis npm, finalisation du projet
+La plupart du temps, ils étaient conçus sous la forme d'amphithéâtres en bois au centre desquels le cadavre à étudier était placé sur une table de dissection, l'anatomiste conduisant la leçon à proximité, éventuellement installé sur une chaire. Par conséquent, et en plus de parler aussi de « théâtre d'anatomie » ou de « theatrum anatomicum », on emploie souvent les termes « amphithéâtre anatomique » ou « amphithéâtre d'anatomie » pour désigner ces ensembles imposants qui, en ménageant pour l'assistance des gradins concentriques, manifestaient par leur architecture le triomphe du regard en tant que nouveau moyen privilégié d'accéder à la connaissance anatomique, en sus des traités spécialisés jusqu'alors sollicités
